@@ -1,0 +1,113 @@
+/* Pagina de stock */
+.pg-stock {
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+.element-titulo {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 12, 80);
+    width: 100%;
+    height: 70px;
+    border: 2px solid rgba(0, 0, 0, 0.856);
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.tituloStock {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(243, 243, 243);
+}
+
+.btn-back {
+    margin-left: 70%;
+}
+
+.factura {
+    background-color: rgb(192, 192, 192);
+}
+
+td {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.farmacia {
+    background-color: rgb(243, 243, 243);
+}
+
+
+.nombreLab {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 3%;
+}
+
+.btn-facturacion {
+    float: right;
+    margin-right: 9%;
+}
+
+
+/* Pagina de laboratorios */
+
+.pg-labs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://media.istockphoto.com/id/1248175308/es/v%C3%ADdeo/equipo-de-laboratorio-microscopio-y-cristaler%C3%ADa.jpg?s=640x640&k=20&c=xkV3VwnjafDqTXQ6HCuOeYCB-YAk2jfeSEvTVD-H1vk=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tituloLaboratorio {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.contenedor {
+    width: 600px;
+    height: 300px;
+    padding-top: 6rem;
+    padding-left: 8rem;
+}
+
+/* Pagina facturación */
+
+.pg-fac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(214, 214, 214);
+}
+
+.contenido-fac {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+    display: flex;
+    /* Establece el flujo de elementos en fila (por defecto) */
+    flex-direction: column;
+    /* Cambia el flujo a columna (alineados verticalmente) */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    background-color: rgb(247, 247, 247);
+    width: 35%;
+    height: 80%;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.entrada {
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.datos-fac {
+    text-align: left;
+    margin-left: 1rem;
+}
